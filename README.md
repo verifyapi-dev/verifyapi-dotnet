@@ -1,6 +1,6 @@
 # VerifyAPI .NET
 
-The official [VerifyAPI][verifyapi] .NET library, supporting .NET Standard 2.0+, .NET Core 3.1, .NET 6.0+ and .NET Framework 4.6.1+.
+A two-factor authentication API library for voice & SMS through the [VerifyAPI][verifyapi] service, supporting .NET Standard 2.0+, .NET Core 3.1, .NET 6.0+ and .NET Framework 4.6.1+.
 
 ## Installation
 

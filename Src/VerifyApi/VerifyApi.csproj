@@ -25,6 +25,7 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
         <Copyright>Voicebooth Limited</Copyright>
+        <PackageId>$(AssemblyName)</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
