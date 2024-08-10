@@ -1,6 +1,6 @@
 # VerifyAPI .NET
 
-A two-factor authentication API library for voice & SMS through the [VerifyAPI][verifyapi] service, supporting .NET Standard 2.0+, .NET Core 3.1, .NET 6.0+ and .NET Framework 4.6.1+.
+A two-factor authentication API library for voice & SMS through the [VerifyAPI][verifyapi] service, supporting .NET Standard 2.0+, .NET Core 3.1, .NET 6.0+ and .NET Framework 4.6.1+ synchronously/asynchronously.
 
 ## Installation
 
@@ -52,7 +52,7 @@ VerifyApiClient client = new VerifyApiClient("YOUR_API_KEY");
 The `VerifyAsync` method of the client can be used to initiate a new verification
 
 ```csharp
-var verification = await client.VerifyAsync("+12123464738", "sms");
+var verification = await client.VerifyAsync("+12123464738", Channel.Sms);
 
 // Check that the verification was successful
 Console.WriteLine(verification.IsSuccess)
